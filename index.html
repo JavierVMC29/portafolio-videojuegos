@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Postafolio videojuegos</title>
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Matrix -->
+    <script type="module" src="./matriz.js" defer></script>
+    <script type="module" src="./index.js" defer></script>
+  </head>
+  <body>
+    <h1 class="title">Portafolio Videojuegos</h1>
+
+    <section class="container">
+      <h2 class="subtitle">Ideas iniciales</h2>
+      <ol class="list-group">
+        <li
+          class="list-group-item d-flex justify-content-between align-items-start"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold mb-2">Idea 1</div>
+            Es un juego 2d donde un ladron tiene que escapar de los guardias
+            para hacerlo no tiene que ser visto, puede trepar paredes o
+            esconderse, los guardias tienen linternas si lo notan lo llevaran a
+            la carcel de nuevo
+          </div>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-start"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold mb-2">Idea 2</div>
+            Una persona intenta llegar a salvo del peligro que presentan los
+            diferentes puntos de fuego en donde se están quemando los monigotes.
+          </div>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-start"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold mb-2">Idea 3</div>
+            Un ladrón deberá escapar de un museo abandonado luego de despertar
+            un sapo mitológico al robar una reliquia.
+          </div>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-start"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold mb-2">Idea 4</div>
+            Los jugadores tomarán el control de una pareja de casados que se
+            odian por igual. Ambos quieren deshacerse del otro y usan sus bodas
+            de oro como excusa para acabar con la vida del otro.
+          </div>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-start"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold mb-2">Idea 5</div>
+            Estas en una casa en el bosque y tu celular se daño, debes repararlo
+            para pedir ayuda. Hay un perro monstruo que entrara a tu casa a
+            buscarte, debes esconderte de el puesto que si te encuentra te
+            matara.
+          </div>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-start"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold mb-2">Idea 6</div>
+            Un autobus da vueltas por la espol eternamente, debes sobrevivir
+            ordas de zombies. Hay armas y municion exparsidos por la universidad
+          </div>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-start"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold mb-2">Idea 7</div>
+            Juego en tercera persona casual simulador de choreo en busetas, es
+            un simulador que tiene como objetivo identificar actividades
+            sospechosas de delitos en Ecuador, el jugador debe tomar decisiones
+            acertadas para identificar quien es el ladrón sin cometer errores,
+            esto antes de que el ladrón logre ejecutar el delito.
+          </div>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-start"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold mb-2">Idea 8</div>
+            Un tiburón experto en artes marciales deberá enfrentarse a los
+            peligros del mar para proteger a los nadadores locales.
+          </div>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-start"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold mb-2">Idea 9</div>
+            Juego en 3d, es un laberinto que se repite en bucle, hasta que el
+            jugador logra resolver una serie de acertijos y escapar
+          </div>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-start"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold mb-2">Idea 10</div>
+            Es un juego en 2d de una prision en medio de un lago, el jugador es
+            un prisionero que debe evitar el campo de vision de las luces para
+            poder escapar del lago.
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="container">
+      <h2 class="subtitle">Ideas 10x10</h2>
+      <div id="matrix-container" class="container-fluid">
+        <!-- La tabla se generará aquí mediante JavaScript -->
+      </div>
+    </section>
+
+    <section class="container">
+      <h2 class="subtitle">Mejores ideas</h2>
+      <div class="container mt-4">
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <div
+              class="card text-white bg-primary mb-3"
+              style="max-width: 18rem"
+            >
+              <div class="card-header">Simulador de Choreo</div>
+              <div class="card-body">
+                <p class="card-text">
+                  Es un juego de suspense donde eres un detective inmovilizado,
+                  enfrentando un límite de tiempo para atrapar a un ladrón
+                  astuto entre una audiencia joven en Ecuador. Cambia de asiento
+                  para obtener pistas, detecta al ladrón y decide entre escapar,
+                  atrapar o atacar. Sin turnos, solo 1-2 minutos de adrenalina
+                  intensa. ¡Colabora con amigos en el multijugador cooperativo
+                  para resolver el caso y convertirte en el héroe del día!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto">
+            <div
+              class="card text-white bg-success mb-3"
+              style="max-width: 18rem"
+            >
+              <div class="card-header">Prisión en el Lago</div>
+              <div class="card-body">
+                <p class="card-text">
+                  "Prisión en el Lago" desafía a los jugadores a planificar
+                  cuidadosamente su escape, sumergiéndolos en un juego sin
+                  límite de tiempo y sin turnos, donde cada movimiento cuenta en
+                  la búsqueda de la libertad.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-auto">
+            <div
+              class="card text-white bg-secondary mb-3"
+              style="max-width: 18rem"
+            >
+              <div class="card-header">
+                Espol Zombies: Supervivencia Universitaria
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  En "Espol Zombies", los jóvenes universitarios enfrentan un
+                  apocalipsis zombi en la ESPOL. Sube a las paradas para
+                  regenerar vida, busca recursos y munición en el campus, y toma
+                  decisiones cruciales: ¿matar, huir o explorar? Enfrenta
+                  oleadas de zombies en rondas sin turnos, sobreviviendo hasta
+                  que llegue el helicóptero de evacuación en emocionantes
+                  partidas de 5 minutos. ¡Demuestra tu destreza y escapa de la
+                  ESPOL infestada de no muertos!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2 class="subtitle">
+        Descripción extendida de idea ganadora (Escape de la Isla)
+      </h2>
+      <p>
+        Es un juego en 2D desarrollado en Godot 4 con un estilo de graficos
+        retro- pixel art. El juego consiste en escapar de una prision en el
+        medio de una isla en medio de un lago desconocido, donde personificamos
+        a un prisionero que logró finalmente librarse de su celda, y su única
+        mision es lograr encontrar la forma de obtener su definitiva libertad a
+        toda costa, esconderse de los guardias, noquearlos, destruir camaras de
+        seguridad y sabotear torres de vigilancia, todo lo necesario para evitar
+        ser encontrado, el lugar de la salida es desconocida, solo sabremos
+        donde esta una vez que la hayamos encontrado.
+      </p>
+    </section>
+    <section class="container">
+      <h2 class="subtitle">Prototipado</h2>
+      <p></p>
+    </section>
+    <section class="container">
+      <h2 class="subtitle">Playesting</h2>
+      <p></p>
+    </section>
+
+    <section class="container">
+      <h2 class="subtitle">Resumen</h2>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="6"
+            aria-label="Slide 7"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/7.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/5.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/6.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/4.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/1.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/2.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/3.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
