@@ -1,3 +1,25 @@
+:root{
+  --white: #d6d6d6
+}
+
+body {
+  background-image: url(./assets/bricks3.jpeg);
+  background-size: auto; /* Ajusta el tamaño de la imagen de fondo */
+  position: relative;
+  z-index: -1;
+}
+
+.overlay {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Cambia el último valor (0.5) para ajustar la opacidad */
+}
+
+
 section {
   margin-bottom: 50px;
 }
@@ -5,11 +27,16 @@ section {
 .title {
   text-align: center;
   margin: 50px 0;
+  color: var(--white);
+  font-weight: 700;
 }
 
 .subtitle {
   text-align: center;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: var(--white);
+  font-weight: 700;
 }
 
 .celda {
@@ -19,4 +46,158 @@ section {
 
 .texto-matriz {
   font-size: 8px;
+}
+
+
+/* NAVBAR */
+
+.nav {
+  background-color: #000;
+  color: #d6d6d6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_links_opt {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+.logo {
+  max-width: 100px; /* Ajusta el tamaño máximo de tu logo */
+  display: block;
+}
+
+
+/* IDEACION */
+.ideacion{
+  background-color: #000;
+}
+
+.ol{
+  list-style: none;
+  list-style-type: none;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+.accordion-content.show {
+  display: block;
+}
+
+
+/* MEJORES IDEAS */
+
+.best-ideas-section{
+  background-color: #000;
+  padding: 40px 10%;
+}
+
+.best-ideas-list{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.best-idea-container{
+  display: flex;
+  gap: 50px;
+}
+
+.best-idea{
+  padding: 25px 0;
+}
+
+.best-idea-number{
+  color: var(--white);
+  font-size: 100px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.best-idea-title{
+  color: var(--white);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.best-idea-description{
+  color: var(--white);
+  font-size: 18px;
+  text-align: justify;
+}
+
+.best-ideas-li{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.best-idea-1{
+  width: 70%;
+}
+
+.best-idea-line{
+  width: 100%;
+  border-top: 1px solid #fff;
+}
+
+.best-idea-line-1{
+  width: 100%;
+  border-top: 1px solid #fff;
+  margin-bottom: 20px;
+}
+
+.best-idea-2{
+  width: 80%;
+}
+
+.best-idea-3{
+  width: 90%;
+}
+
+/* MAPA */
+
+.map-section{
+  background-color: #000;
+  padding: 20px 0;
+}
+
+
+.trailer-section{
+  background-color: #000;
+  padding: 20px 0;
 }
