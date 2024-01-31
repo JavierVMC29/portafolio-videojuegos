@@ -33,15 +33,15 @@
 
   <nav class="nav">
     <ul class="nav_links">
-      <li><a href="#" class="nav_links_opt">Ideacion</a></li>
-      <li><a href="#" class="nav_links_opt">Idea ganadora</a></li>
+      <li><a href="#ideacion" class="nav_links_opt">Ideacion</a></li>
+      <li><a href="#idea-ganadora" class="nav_links_opt">Idea ganadora</a></li>
       <li><a href="#" class="nav_links_opt">Prototipado</a></li>
       <li><a href="#" class="nav_links_opt">Resultado</a></li>
     </ul>
     <img src="" alt="logo del juego" class="logo" />
   </nav>
 
-  <section class="ideacion">
+  <section class="ideacion" id="ideacion">
     <h2>Ideacion</h2>
     <section class="container">
       <h3 class="subtitle">Ideas iniciales</h3>
@@ -57,10 +57,10 @@
         </div>
         <div class="card-container">
           <div class="card" id="selected-card">
-              <img src="" alt="Imagen seleccionada" class="card-image">
-              <p class="card-paragraph"></p>
+            <img src="" alt="Imagen seleccionada" class="card-image">
+            <p class="card-paragraph"></p>
           </div>
-      </div>
+        </div>
       </div>
     </section>
   </section>
@@ -130,21 +130,59 @@
     </ol>
   </section>
 
-  <section class="container">
+  <section class="winner-idea-section " id="idea-ganadora">
     <h2 class="subtitle">
-      Descripción extendida de idea ganadora (Escape de la Isla)
+      Idea ganadora
     </h2>
-    <p>
-      Es un juego en 2D desarrollado en Godot 4 con un estilo de graficos
-      retro- pixel art. El juego consiste en escapar de una prision en el
-      medio de una isla en medio de un lago desconocido, donde personificamos
-      a un prisionero que logró finalmente librarse de su celda, y su única
-      mision es lograr encontrar la forma de obtener su definitiva libertad a
-      toda costa, esconderse de los guardias, noquearlos, destruir camaras de
-      seguridad y sabotear torres de vigilancia, todo lo necesario para evitar
-      ser encontrado, el lugar de la salida es desconocida, solo sabremos
-      donde esta una vez que la hayamos encontrado.
-    </p>
+    <div class="winner-idea-container">
+      <img src="" alt="Logo del juego">
+      <p class="winner-idea-description">
+        Es un juego en 2D desarrollado en Godot 4 con un estilo de graficos
+        retro- pixel art. El juego consiste en escapar de una prision en el
+        medio de una isla en medio de un lago desconocido, donde personificamos
+        a un prisionero que logró finalmente librarse de su celda, y su única
+        mision es lograr encontrar la forma de obtener su definitiva libertad a
+        toda costa, esconderse de los guardias, noquearlos, destruir camaras de
+        seguridad y sabotear torres de vigilancia, todo lo necesario para evitar
+        ser encontrado, el lugar de la salida es desconocida, solo sabremos
+        donde esta una vez que la hayamos encontrado.
+      </p>
+    </div>
+  </section>
+
+  <section class="rules-section">
+    <h2 class="subtitle">
+      Reglas
+    </h2>
+    <div class="rules-container">
+      <div class="rule-img">
+        <img src="./assets/landing/guardia.png" alt="Guardia">
+        <img src="./assets/landing/ladron.png" alt="">
+      </div>
+      <ul class="rules-list">
+        <li>
+          <p>El objetivo del juego es escapar de la isla</p>
+        </li>
+        <li>
+          <p>Si los guardias o los sistemas de seguridad nos detectan perderemos el juego</p>
+        </li>
+        <li>
+          <p>Es un modo de un solo jugador</p>
+        </li>
+        <li>
+          <p>No hay limite de tiempo</p>
+        </li>
+        <li>
+          <p>Los jugadores usaran las flechas del teclado y el mouse para clickear ciertos elementos.</p>
+        </li>
+        <li>
+          <p>Debe utilizar los elementos disponibles en los escenarios para lograr el objetivo.</p>
+        </li>
+        <li>
+          <p>El juego puede llevar de 2 a 5 minutos existiran pistas que facilitaran el avance en los niveles</p>
+        </li>
+      </ul>
+    </div>
   </section>
 
   <section class="container">
