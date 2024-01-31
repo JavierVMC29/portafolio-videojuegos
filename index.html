@@ -23,6 +23,9 @@
 
   <!-- Accordion -->
   <script src="accordion.js" defer></script>
+
+  <!-- Matrix -->
+  <script type="module" src="matrix.js" defer></script>
 </head>
 
 <body>
@@ -48,8 +51,16 @@
     </section>
     <section class="container">
       <h3 class="subtitle">Ideas 10x10</h3>
-      <div id="matrix-container" class="container-fluid">
-        <!-- La tabla se generará aquí mediante JavaScript -->
+      <div class="matrix-view">
+        <div class="matrix-container" id="matrix-container">
+          <!-- Se generará la matriz aquí mediante JavaScript -->
+        </div>
+        <div class="card-container">
+          <div class="card" id="selected-card">
+              <img src="" alt="Imagen seleccionada" class="card-image">
+              <p class="card-paragraph"></p>
+          </div>
+      </div>
       </div>
     </section>
   </section>
@@ -103,13 +114,13 @@
             <div class="best-idea-title">Espol Zombies: Supervivencia Universitaria</div>
             <p class="best-idea-description">
               En "Espol Zombies", los jóvenes universitarios enfrentan un
-                apocalipsis zombi en la ESPOL. Sube a las paradas para
-                regenerar vida, busca recursos y munición en el campus, y toma
-                decisiones cruciales: ¿matar, huir o explorar? Enfrenta
-                oleadas de zombies en rondas sin turnos, sobreviviendo hasta
-                que llegue el helicóptero de evacuación en emocionantes
-                partidas de 5 minutos. ¡Demuestra tu destreza y escapa de la
-                ESPOL infestada de no muertos!</p>
+              apocalipsis zombi en la ESPOL. Sube a las paradas para
+              regenerar vida, busca recursos y munición en el campus, y toma
+              decisiones cruciales: ¿matar, huir o explorar? Enfrenta
+              oleadas de zombies en rondas sin turnos, sobreviviendo hasta
+              que llegue el helicóptero de evacuación en emocionantes
+              partidas de 5 minutos. ¡Demuestra tu destreza y escapa de la
+              ESPOL infestada de no muertos!</p>
           </div>
         </div>
         <div class="best-idea-3">
@@ -213,7 +224,10 @@
   <section class="trailer-section">
     <h2 class="subtitle">Trailer</h2>
     <div class="text-center">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/eoFID6uxoNA?si=VXD32ClxruBJplD9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/eoFID6uxoNA?si=VXD32ClxruBJplD9"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
     </div>
   </section>
 

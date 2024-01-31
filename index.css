@@ -87,6 +87,7 @@ section {
 /* IDEACION */
 .ideacion{
   background-color: #000;
+  padding: 20px 0;
 }
 
 .ol{
@@ -200,4 +201,55 @@ section {
 .trailer-section{
   background-color: #000;
   padding: 20px 0;
+}
+
+
+/* MATRIX */
+
+.matrix-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 4px; /* Espacio entre los cuadrados */
+}
+
+.matrix-square {
+  width: 50px; /* Ajusta el tamaño de los cuadrados según tus necesidades */
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  color: var(--white);
+}
+
+.matrix-square:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: #000
+}
+
+.matrix-square-selected{
+  background-color: var(--white);
+  color: #000;
+}
+
+
+.card-container {
+  width: 100%;
+  margin-left: 30px;
+}
+
+.card {
+  background-color: #000;
+  color: var(--white);
+}
+
+.card-image {
+  max-width: 100%;
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.matrix-view{
+  display: flex;
 }
