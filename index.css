@@ -388,12 +388,20 @@ button svg {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: justify;
   color: white;
   width: 50%;
 }
 #img-testing{
-  width: 250px;
-  height: 250px;
+  width: 30em;
+  height: 12em;
+  object-fit: cover;
+  object-fit: center;
+}
+
+#img-testing2{
+  width: 30em;
+  height: 16em;
   object-fit: cover;
   object-fit: center;
 }
