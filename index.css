@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url(./assets/bricks3.jpeg);
+  background-image: url(./assets/bricks.jpeg);
   background-size: auto; /* Ajusta el tamaño de la imagen de fondo */
   position: relative;
   z-index: -1;
@@ -293,6 +293,7 @@ section {
 .rule-img{
   flex: 1;
   display: flex;
+  justify-content: center;
   gap: 50px;
 }
 
@@ -321,6 +322,7 @@ section {
 
 .carousel img {
   width: 100%;
+  height: fit-content;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -366,4 +368,9 @@ button svg {
 .carousel-buttons-container{
   display: flex;
   justify-content: flex-end;
+}
+
+.trailer-container{
+  width: 600px;
+  height: 338px;
 }
