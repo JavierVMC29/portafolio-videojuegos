@@ -374,3 +374,26 @@ button svg {
   width: 600px;
   height: 338px;
 }
+.container-testing{
+  display: flex;
+  flex-direction: row;
+}
+.left-testing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.right-testing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 50%;
+}
+#img-testing{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-fit: center;
+}
